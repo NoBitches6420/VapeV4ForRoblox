@@ -180,7 +180,7 @@ run(function()
 									store.attackReachUpdate = tick() + 1
 
 									AttackRemote:FireServer({
-										weapon = sword.tool,
+										weapon = "iron_sword",
 										chargedAttack = {chargeRatio = 0},
 										entityInstance = v.Character,
 										validate = {
